@@ -1,0 +1,5 @@
+# DLL注入工具依赖
+psutil>=5.9.0  # 用于获取系统进程列表
+pywin32>=305  # 用于访问Windows API，获取进程图标
+Pillow>=9.0.0  # 用于图像处理，将Windows图标转换为Tkinter可用格式
+# tkinter 是Python标准库的一部分，不需要单独安装
